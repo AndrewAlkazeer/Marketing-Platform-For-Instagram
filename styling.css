@@ -1,0 +1,209 @@
+body{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background: linear-gradient(-45deg, violet, blue);
+    background-size: 400% 400%;
+    
+    animation: slide 15s ease infinite;
+}
+
+.intro{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-h1{
+    position: relative;
+    font-size: 50px;
+    width: 90%;
+    color: white;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro-p{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 3%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro-button{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    color: white;
+    margin-top: 3%;
+    margin-right: 3%;
+    border: 1px solid cyan;
+    margin-left: 1%;
+    margin-top: 5%;
+    left: 25%;
+    transform: translateX(-25%);
+}
+
+.intro-button-group{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    margin-top: 5%;
+}
+
+.intro-button:hover, .page2-container-1-button:hover, .page2-container-2-button:hover, .page2-container-3-button:hover, .page2-container-4-button:hover{
+    background-color: cyan;
+    color: black;
+}
+
+.intro2{
+    position: relative;
+    height: 110%;
+}
+
+.intro2-img{
+    position: relative;
+    left: 50%;
+    margin: 5%;
+    transform: translateX(-50%);
+}
+
+.intro2-div{
+    position: absolute;
+    width: 280px;
+    height: 90px;
+    z-index: 99;
+    top: 65%;
+    left: 10%;
+    transform: translateY(-65%);
+    background: linear-gradient(to left, violet, blue);
+}
+
+.icons{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+}
+.breaker{
+    position: relative;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.intro2-div-container{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 65%;
+}
+
+.page2{
+    background-color: white;
+}
+
+.page2-h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.page2-line{
+    position: relative;
+    background-color: cyan;
+    width: 100px;
+    height: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page2-container{
+    background-color: red;
+}
+
+.page-test{
+    background-color: white;
+}
+
+
+.page2-container-1, .page2-container-2, .page2-container-3, .page2-container-4{
+    
+    height: 700px;
+    background-color: tomato;
+    margin-top: 3%;
+}
+
+.page2-container-1-div, .page2-container-2-div, .page2-container-3-div, .page2-container-4-div{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to left, violet, blue);
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 10px solid cyan;
+    border-right: 10px solid cyan;
+}
+
+.page2-container-1-div-icon, .page2-container-2-div-icon, .page2-container-3-div-icon, .page2-container-4-div-icon{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25%;
+}
+
+.page2-container-1-h1, .page2-container-2-h1, .page2-container-3-h1, .page2-container-4-h1{
+    position: relative;
+    background-color: yellowgreen;
+    width: 70%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    margin-top: 50%;
+}
+
+.page2-container-1-p, .page2-container-2-p, .page2-container-3-p, .page2-container-4-p{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+.page2-container-1-button, .page2-container-2-button, .page2-container-3-button, .page2-container-4-button{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    margin-top: 3%;
+    margin-right: 3%;
+    border: 1px solid cyan;
+    margin-top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row-2, .row-3{
+ background-color: white;
+}
+
+@keyframes slide{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+@keyframes left{
+    0%{left: 0;}
+    50%{left: -200%;}
+    100%{left: 400%;}
+}
