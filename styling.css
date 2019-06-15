@@ -119,7 +119,7 @@ body{
     position: relative;
     background-color: cyan;
     width: 100px;
-    height: 1%;
+    height: 3%;
     left: 50%;
     transform: translateX(-50%);
 }
