@@ -55,6 +55,8 @@ body{
     transform: translateX(-50%);
     height: 50%;
     margin-top: 5%;
+    /* the overflow-x needs fix */
+    overflow-x: hidden; 
 }
 
 .intro-button:hover{
@@ -202,7 +204,7 @@ body{
 .page3-container-1, .page3-container-2, .page3-container-3{
     
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .page3-h1{
