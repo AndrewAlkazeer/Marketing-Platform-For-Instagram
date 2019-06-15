@@ -194,6 +194,129 @@ body{
  background-color: white;
 }
 
+.row-4{
+    background: linear-gradient(to left, violet, blue);
+    height: 100%;
+}
+
+.page3-container-1, .page3-container-2, .page3-container-3{
+    
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.page3-h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.page3-line{
+    position: relative;
+    background-color: white;
+    width: 100px;
+    height: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page3-container-1, .page3-container-2, .page3-container-3{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    left: 100px;
+}
+
+.page3-container-1-div, .page3-container-2-div, .page3-container-3-div{
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.page3-container-1-div-icon-container{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+
+.page3-container-2-div-icon-container{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+
+.page3-container-3-div-icon-container{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%); 
+}
+
+.page3-container-1-div-icon, .page3-container-2-div-icon, .page3-container-3-div-icon{
+    position: relative;
+    left: 50%;
+    font-size: 40px;
+    transform: translateX(-50%);
+    margin-top: 15%;
+    color: white;
+}
+
+.page3-container-1-div-h2, .page3-container-2-div-h2, .page3-container-3-div-h2{
+    position: relative;
+    top: 15%;
+    width: 80%;
+    left: 8%;
+}
+
+.page3-container-1-div-line, .page3-container-2-div-line, .page3-container-3-div-line{
+    position: relative;
+    width: 30%;
+    height: 1%;
+    background-color: cyan;
+    top: 17%;
+    left: 8%;
+}
+
+.page3-container-1-div-p, .page3-container-2-div-p, .page3-container-3-div-p{
+    position: relative;
+    top: 25%;
+    width: 95%;
+    left: 3%;
+}
+
+.page3-container-1-div-2, .page3-container-2-div-2, .page3-container-3-div-2{
+    position: relative;
+    background-color: aqua;
+    left: -2px;
+    width: 100px;
+    height: 350px;
+    z-index: 1;
+    bottom: 93.5%;
+}
+
 @keyframes slide{
     0%{background-position: 0% 50%}
     50%{background-position: 100% 50%}
