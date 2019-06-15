@@ -57,7 +57,7 @@ body{
     margin-top: 5%;
 }
 
-.intro-button:hover, .page2-container-1-button:hover, .page2-container-2-button:hover, .page2-container-3-button:hover, .page2-container-4-button:hover{
+.intro-button:hover{
     background-color: cyan;
     color: black;
 }
@@ -128,11 +128,6 @@ body{
     background-color: red;
 }
 
-.page-test{
-    background-color: white;
-}
-
-
 .page2-container-1, .page2-container-2, .page2-container-3, .page2-container-4{
     
     height: 700px;
@@ -162,7 +157,6 @@ body{
 
 .page2-container-1-h1, .page2-container-2-h1, .page2-container-3-h1, .page2-container-4-h1{
     position: relative;
-    background-color: yellowgreen;
     width: 70%;
     text-align: center;
     left: 50%;
@@ -182,13 +176,18 @@ body{
     width: 150px;
     height: 50px;
     background-color: transparent;
-    color: white;
+    color: black;
     margin-top: 3%;
     margin-right: 3%;
     border: 1px solid cyan;
     margin-top: 20%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.page2-container-1-button:hover, .page2-container-2-button:hover, .page2-container-3-button:hover, .page2-container-4-button:hover{
+    background-color: cyan;
+    color: white;
 }
 
 .row-2, .row-3{
