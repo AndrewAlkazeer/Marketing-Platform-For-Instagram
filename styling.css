@@ -336,7 +336,74 @@ body{
     transform: translateX(-50%);
     border: 1px solid cyan;
     font-size: 20px;
+    bottom: 40%;
 }
+
+.row-5{
+    background-color: white;
+    height: 120vh;
+}
+
+.page4-container{
+    width: 100%;
+}
+
+.page4-container-h1{
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.page4-container-line{
+    position: relative;
+    width: 100px;
+    height: 3px;
+    background-color: cyan;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page4-container-p1{
+    position: relative;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.page4-container-p2, .page4-container-p3{
+    position: relative;
+    width: 60%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page4-container-p2{
+    margin-top: 2%;
+}
+
+.page4-container-div{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(to left, violet, blue);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.page4-container-div-icon{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
 
 @keyframes slide{
     0%{background-position: 0% 50%}
